@@ -35,16 +35,16 @@ const useStyles = makeStyles((theme) => ({
 
 export default function TransitionsModal({ movies,setMovies,id,children }) {
   const classes = useStyles();
-  const history = useHistory(setMovies);
+  const history = useHistory();
   const [open, setOpen] = useState(false);
   const [content, setContent] = useState(movies);
   
 
 
   const handleOpen = () => {
-    history.push("/modal/"+id);
+     
     setOpen(true);
-    
+    //history.push("/modal/"+id);
   };
 
   const handleClose = () => {

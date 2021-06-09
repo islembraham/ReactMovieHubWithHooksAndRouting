@@ -32,8 +32,7 @@ function App() {
             <Route
               path="/modal/:id"
               render={() => <TransitionsModal movies={movies} setMovies={setMovies}/>}
-              
-            />
+            /> 
           </Switch>
         </Container>
       </div>
