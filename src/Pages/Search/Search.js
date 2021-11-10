@@ -139,11 +139,11 @@ const Search = ({movies, setMovies}) => {
           >
             <DialogTitle
               id="form-dialog-title"
-              style={{ backgroundColor: "#0a1938" }}
+              style={{ backgroundColor: "gray" }}
             >
               Add a new Movie to your WatchList
             </DialogTitle>
-            <DialogContent style={{ backgroundColor: "#0a1938" }}>
+            <DialogContent style={{ backgroundColor: "gray" }}>
               <TextField
                 autoFocus
                 margin="dense"
@@ -200,7 +200,7 @@ const Search = ({movies, setMovies}) => {
                 onChange={(e) => setMedia_type(e.target.value)}
               />
             </DialogContent>
-            <DialogActions style={{ backgroundColor: "#0a1938" }}>
+            <DialogActions style={{ backgroundColor: "gray" }}>
               <Button onClick={handleClose} color="primary">
                 Cancel
               </Button>
